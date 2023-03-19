@@ -6,4 +6,4 @@ services:
       dockerfile: src/main/docker/Dockerfile.jvm
       context: .
     ports:
-      - 8081:8080
+      - 8080:8080
