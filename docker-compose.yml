@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  quarkus-dev:
+    build:
+      dockerfile: src/main/docker/Dockerfile.jvm
+      context: .
+    ports:
+      - 8081:8080
